@@ -1,0 +1,88 @@
+/* Start Header */
+.header .main-nav > li > a::before {
+  right: -100%;
+}
+.header .main-nav > li > a:hover:before {
+  right: 0;
+}
+/* Start Mega-menu */
+.mega-menu .links li::before {
+  right: 0;
+}
+.mega-menu .links li i {
+  margin: 0 0 0 15px;
+}
+/* End Mega-menu */
+/* End Header */
+/* Start Features */
+.features .box .link:hover {
+  background-position: right bottom;
+}
+/* Quality  */
+.features .quality .link {
+  background: linear-gradient(to left, #f44036 51%, white 50%);
+  background-position: left bottom;
+  background-size: 200% 100%;
+}
+/* Time */
+
+.features .time .link {
+  background: linear-gradient(to left, #009688 51%, white 50%);
+  background-position: left bottom;
+  background-size: 200% 100%;
+}
+/* Passion */
+.features .passion .link {
+  background: linear-gradient(to left, #03a9f4 51%, white 50%);
+  background-position: left bottom;
+  background-size: 200% 100%;
+}
+/* End Features */
+/* Start Testimonials */
+.testimonials .box img {
+  right: auto;
+  left: -10px;
+}
+/* End Testimonials */
+/* Start Team */
+.team .box::before,
+.team .box::after {
+  right: auto;
+  left: 0;
+}
+.team .box .info {
+  padding: 0 120px 0 0;
+}
+/* End Team */
+/* Start Events */
+.events .subscribe form input[type="email"]::placeholder {
+  transition: none;
+}
+/* End Events */
+/* Start Pricing Plans  */
+.pricing .box ul {
+  text-align: right;
+}
+.pricing .box ul li::before {
+  margin-right: 0;
+  margin-left: 10px;
+}
+/* End Pricing Plans  */
+/* Start Discount */
+.discount .form .input[name="email"]:focus,
+.discount .form .input[name="mobile"]:focus {
+  direction: ltr;
+}
+/* End Discount */
+/* Start Footer */
+.footer .box .social li {
+  margin: 0 0 0 10px;
+}
+.footer .box .links li:hover a {
+  padding-right: 15px;
+}
+.footer .box .links li a::before {
+  content: "\f100";
+  margin: 0 0 0 10px;
+}
+/* End Footer */
